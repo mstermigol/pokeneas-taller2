@@ -5,8 +5,8 @@ class PokeneaController {
     static show(req, res) {
         
         const number = Math.floor(Math.random() * pokeneas.length);
-        const pockenea = pokeneas[number];
-        const { image, quote } = pockenea
+        const pokenea = pokeneas[number];
+        const { image, quote } = pokenea
         
         const viewData = {
             image: image,

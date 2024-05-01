@@ -5,8 +5,8 @@ class PokeneaApiController {
     static show(req, res) {
         
         const number = Math.floor(Math.random() * pokeneas.length);
-        const pockenea = pokeneas[number];
-        const { id, name, height, ability } = pockenea
+        const pokenea = pokeneas[number];
+        const { id, name, height, ability } = pokenea
 
         let response = {
             id: id,
