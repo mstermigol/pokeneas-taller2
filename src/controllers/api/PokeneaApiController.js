@@ -1,4 +1,5 @@
 const { pokeneas } = require('../../models/Pokenea');
+const os = require('os');
 
 class PokeneaApiController {
     static show(req, res) {
@@ -12,6 +13,7 @@ class PokeneaApiController {
             name: name,
             height: height,
             ability: ability,
+            hostName: os.hostname(),
         }
 
         res.send(response)
