@@ -1,4 +1,4 @@
-const { pokeneas } = require('../../models/Pokenea');
+const { pokeneas } = require('../../database/Pokenea');
 const os = require('os');
 
 class PokeneaApiController {

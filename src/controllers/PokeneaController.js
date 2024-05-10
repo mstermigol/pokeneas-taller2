@@ -1,5 +1,5 @@
 const os = require('os');
-const { pokeneas } = require('../models/Pokenea');
+const { pokeneas } = require('../database/Pokenea');
 
 class PokeneaController {
     static show(req, res) {
